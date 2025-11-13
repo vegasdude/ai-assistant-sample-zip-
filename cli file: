@@ -1,0 +1,21 @@
+---
+
+## 📁 `cli-ai-assistant/javascript/README.md`
+
+```markdown
+# CLI AI Assistant (Node.js)
+
+A **terminal-based AI assistant** written in Node.js using the OpenAI API.
+
+---
+
+## 🧰 Requirements
+
+- Node.js 18+  
+- npm  
+- OpenAI API key (`OPENAI_API_KEY`)
+
+Install dependencies:
+
+```bash
+npm install
