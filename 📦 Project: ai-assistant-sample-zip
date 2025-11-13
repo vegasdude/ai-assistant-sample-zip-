@@ -1,0 +1,58 @@
+ai-assistant-sample-zip/
+│
+├── README.md
+│   → Overview, setup steps, and folder descriptions
+│
+├── chat-assistant-flask/                  # (1) ChatGPT-like web app
+│   ├── python/
+│   │   ├── app.py
+│   │   ├── templates/index.html
+│   │   ├── static/style.css
+│   │   ├── requirements.txt
+│   │   └── README.md
+│   └── javascript/
+│       ├── server.js
+│       ├── public/index.html
+│       ├── package.json
+│       └── README.md
+│
+├── github-ai-assistant/                   # (2) GitHub AI Bot
+│   ├── python/
+│   │   ├── main.py
+│   │   ├── .github/workflows/ai_assistant.yml
+│   │   ├── requirements.txt
+│   │   └── README.md
+│   └── javascript/
+│       ├── index.js
+│       ├── .github/workflows/ai_assistant.yml
+│       ├── package.json
+│       └── README.md
+│
+├── cli-ai-assistant/                      # (3) Terminal AI assistant
+│   ├── python/
+│   │   ├── assistant_cli.py
+│   │   ├── requirements.txt
+│   │   └── README.md
+│   └── javascript/
+│       ├── assistant_cli.js
+│       ├── package.json
+│       └── README.md
+│
+└── sdk-ai-assistant/                      # (4) SDK + Tools + Memory
+    ├── python/
+    │   ├── assistant_sdk.py
+    │   ├── tools/
+    │   │   ├── weather_tool.py
+    │   │   ├── math_tool.py
+    │   │   └── __init__.py
+    │   ├── memory/memory.json
+    │   ├── requirements.txt
+    │   └── README.md
+    └── javascript/
+        ├── assistant_sdk.js
+        ├── tools/
+        │   ├── weatherTool.js
+        │   ├── mathTool.js
+        ├── memory/memory.json
+        ├── package.json
+        └── README.md
