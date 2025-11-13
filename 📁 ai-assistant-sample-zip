@@ -1,0 +1,37 @@
+ai-assistant-sample-zip/
+│
+├── README.md
+│
+├── chat-assistant-flask/                # (1) Web ChatGPT-like assistant
+│   ├── app.py
+│   ├── templates/
+│   │   └── index.html
+│   ├── static/
+│   │   └── style.css
+│   ├── requirements.txt
+│   └── README.md
+│
+├── github-ai-assistant/                 # (2) GitHub AI assistant
+│   ├── main.py
+│   ├── .github/
+│   │   └── workflows/
+│   │       └── ai_assistant.yml
+│   ├── requirements.txt
+│   └── README.md
+│
+├── cli-ai-assistant/                    # (3) Local terminal AI assistant
+│   ├── assistant_cli.py
+│   ├── requirements.txt
+│   └── README.md
+│
+└── sdk-ai-assistant/                    # (4) SDK example with tools & memory
+    ├── assistant_sdk.py
+    ├── tools/
+    │   ├── weather_tool.py
+    │   ├── math_tool.py
+    │   └── __init__.py
+    ├── memory/
+    │   ├── memory.json
+    │   └── __init__.py
+    ├── requirements.txt
+    └── README.md
