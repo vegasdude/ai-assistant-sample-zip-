@@ -1,0 +1,22 @@
+---
+
+## 📁 `github-ai-assistant/javascript/README.md`
+
+```markdown
+# GitHub AI Assistant (Node.js)
+
+A minimal Node.js example of an AI assistant for GitHub issues using the **OpenAI API**.  
+Can be used as a script in a GitHub Action or run locally for testing.
+
+---
+
+## 🧰 Requirements
+
+- Node.js 18+  
+- npm  
+- OpenAI API key (`OPENAI_API_KEY`)
+
+Install dependencies:
+
+```bash
+npm install
