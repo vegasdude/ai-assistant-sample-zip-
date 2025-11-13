@@ -1,0 +1,2 @@
+cd chat-assistant-flask/javascript
+node server.js
