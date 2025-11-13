@@ -1,0 +1,73 @@
+ai-assistant-sample-zip/
+│
+├── .gitignore
+│   → ignores .env, __pycache__, node_modules, etc.
+│
+├── LICENSE
+│   → MIT license (or you can replace with your preferred one)
+│
+├── README.md
+│   → Explains project purpose, setup instructions, and folder overview
+│
+├── .env.example
+│   → OPENAI_API_KEY=your-key-here
+│
+├── docs/
+│   ├── overview.md
+│   ├── setup_guide.md
+│   ├── github_integration.md
+│   └── changelog.md
+│
+├── chat-assistant-flask/
+│   ├── python/
+│   │   ├── app.py
+│   │   ├── templates/index.html
+│   │   ├── static/style.css
+│   │   ├── requirements.txt
+│   │   └── README.md
+│   └── javascript/
+│       ├── server.js
+│       ├── public/index.html
+│       ├── package.json
+│       └── README.md
+│
+├── github-ai-assistant/
+│   ├── python/
+│   │   ├── main.py
+│   │   ├── .github/workflows/ai_assistant.yml
+│   │   ├── requirements.txt
+│   │   └── README.md
+│   └── javascript/
+│       ├── index.js
+│       ├── .github/workflows/ai_assistant.yml
+│       ├── package.json
+│       └── README.md
+│
+├── cli-ai-assistant/
+│   ├── python/
+│   │   ├── assistant_cli.py
+│   │   ├── requirements.txt
+│   │   └── README.md
+│   └── javascript/
+│       ├── assistant_cli.js
+│       ├── package.json
+│       └── README.md
+│
+└── sdk-ai-assistant/
+    ├── python/
+    │   ├── assistant_sdk.py
+    │   ├── tools/
+    │   │   ├── weather_tool.py
+    │   │   ├── math_tool.py
+    │   │   └── __init__.py
+    │   ├── memory/memory.json
+    │   ├── requirements.txt
+    │   └── README.md
+    └── javascript/
+        ├── assistant_sdk.js
+        ├── tools/
+        │   ├── weatherTool.js
+        │   ├── mathTool.js
+        ├── memory/memory.json
+        ├── package.json
+        └── README.md
