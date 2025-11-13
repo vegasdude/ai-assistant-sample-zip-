@@ -1,0 +1,16 @@
+# SDK AI Assistant (Python)
+
+This example demonstrates how to build an AI assistant using the **OpenAI Python SDK** with basic tools and in-memory context.
+
+---
+
+## 🧰 Requirements
+
+- Python 3.9+  
+- `openai` package  
+- `dotenv` for environment variables  
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
