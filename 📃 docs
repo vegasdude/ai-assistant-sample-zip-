@@ -1,0 +1,29 @@
+# Project Overview
+
+The **AI Assistant Sample Project** provides working templates for creating different types of AI-powered assistants using **Python** and **JavaScript**.
+
+Each example demonstrates how to integrate the **OpenAI API** into your own environment — whether it’s a web app, GitHub bot, or local CLI tool.
+
+---
+
+## 🧩 Examples Included
+
+| Folder | Description |
+|--------|--------------|
+| `chat-assistant-flask` | Flask / Node web chat app |
+| `github-ai-assistant` | GitHub Action AI bot |
+| `cli-ai-assistant` | Terminal chat assistant |
+| `sdk-ai-assistant` | Advanced tool + memory SDK demo |
+
+---
+
+## 🧠 Key Features
+
+- Ready-to-run examples for both Python and Node.js  
+- Local environment setup (`.env.example` included)  
+- Modular and extendable project folders  
+- Compatible with OpenAI’s latest models (`gpt-4o`, `gpt-4o-mini`, etc.)
+
+---
+
+## 🔧 Folder Summary
