@@ -1,0 +1,17 @@
+# GitHub AI Assistant (Python)
+
+A minimal Python example of an AI assistant that can respond to GitHub issues using the **OpenAI API**.  
+Includes a **GitHub Actions workflow** to automatically trigger the script when an issue is opened.
+
+---
+
+## 🧰 Requirements
+
+- Python 3.9+  
+- Requests library  
+- OpenAI API key (`OPENAI_API_KEY`)
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
