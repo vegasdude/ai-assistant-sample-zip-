@@ -1,0 +1,21 @@
+---
+
+## 📁 `chat-assistant-flask/javascript/README.md`
+
+```markdown
+# Chat Assistant (Node.js / Express)
+
+This is a Node.js version of the chat assistant using **Express** and **OpenAI API**.
+
+---
+
+## 🧰 Requirements
+
+- Node.js 18+  
+- npm  
+- OpenAI API key (`OPENAI_API_KEY`)
+
+Install dependencies:
+
+```bash
+npm install
