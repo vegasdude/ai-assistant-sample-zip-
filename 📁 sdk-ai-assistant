@@ -1,0 +1,21 @@
+---
+
+## 📁 `sdk-ai-assistant/javascript/README.md`
+
+```markdown
+# SDK AI Assistant (JavaScript)
+
+This example uses the **OpenAI JavaScript SDK** to build a customizable AI assistant with tools and short-term memory.
+
+---
+
+## 🧰 Requirements
+
+- Node.js 18+  
+- npm  
+- OpenAI API key (`OPENAI_API_KEY`)
+
+Install dependencies:
+
+```bash
+npm install
